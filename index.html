@@ -1,96 +1,107 @@
+
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
-
-</style>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>همسفر مشهد</title>
 
-    <title>همسفر مشهد</title>
-    <style>
-  body {
-    margin: 0;
-    font-family: Tahoma, sans-serif;
-    direction: rtl;
-    background-color: #f3f6fa;
-    color: #243447;
-  }
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      direction: rtl;
+      background-color: #f3f6fa;
+      color: #243447;
+    }
 
-  header {
-    background-color: #064e78;
-    color: white;
-    text-align: center;
-    padding: 25px 15px;
-  }
+    header {
+      background-color: #064e78;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
 
-  header h1 {
-    margin: 0;
-    font-size: 28px;
-  }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
 
-  header p {
-    margin-bottom: 0;
-  }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
 
-  .container {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-  }
+    .welcome {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 3px 12px #00000012;
+    }
 
-  .welcome {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 3px 12px #00000012;
-  }
+    .login-button {
+      display: inline-block;
+      background-color: #087eae;
+      color: white;
+      text-decoration: none;
+      padding: 12px 35px;
+      border-radius: 10px;
+      font-size: 17px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .login {
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    input {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 80%;
+      max-width: 300px;
+    }
+  </style>
 </head>
 
 <body>
-        
-<header>
-  <h1>همسفر مشهد</h1>
-  <p>همراه شما در سفری خاطره‌انگیز به مشهد مقدس</p>
-</header>
-        
-<main class="container">
-  <section class="welcome">
-    <h2>به سامانه همسفر مشهد خوش آمدید</h2>
 
-    <p>
-      با همسفر، سفر گروهی به مشهد را
-      آسان‌تر، منظم‌تر و لذت‌بخش‌تر تجربه کنید.
-    </p>
-
-    <p>
-      امکان ثبت‌نام مسافران، انتخاب صندلی اتوبوس
-      و رزرو اتاق هتل در یک سامانه.
-    </p>
-  </section>
-</main>
-
-
-
+  <header>
     <h1>همسفر مشهد</h1>
+    <p>همراه شما در سفری خاطره‌انگیز به مشهد مقدس</p>
+  </header>
 
-    <p>به سامانه مدیریت سفرهای گروهی خوش آمدید.</p>
+  <main class="container">
 
-    <h2>ورود مسافر</h2>
+    <section class="welcome">
+      <h2>به سامانه همسفر مشهد خوش آمدید</h2>
 
-    <form>
-        <label for="mobile">شماره همراه:</label>
+      <p>
+        با همسفر، سفر گروهی به مشهد را
+        آسان‌تر، منظم‌تر و لذت‌بخش‌تر تجربه کنید.
+      </p>
 
-        <input
-            type="tel"
-            id="mobile"
-            placeholder="شماره موبایل خود را وارد کنید"
-        >
+      <p>
+        امکان ثبت‌نام مسافران، انتخاب صندلی اتوبوس
+        و رزرو اتاق هتل در یک سامانه.
+      </p>
 
-        <button type="submit">ورود به سامانه</button>
-    </form>
+      <a href="#login" class="login-button">
+        ورود مسافر
+      </a>
+    </section>
+
+    <section class="login" id="login">
+      <h2>ورود مسافر</h2>
+      <p>شماره همراه خود را وارد کنید:</p>
+      <input type="tel" placeholder="شماره موبایل">
+    </section>
+
+  </main>
 
 </body>
 </html>
