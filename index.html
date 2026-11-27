@@ -65,7 +65,34 @@
       width: 80%;
       max-width: 300px;
     }
+    
+.main-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: white;
+  padding: 15px;
+  box-shadow: 0 2px 8px #00000010;
+}
+
+.main-menu a {
+  background: #e7f4fa;
+  color: #064e78;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main-menu a:hover {
+  background: #087eae;
+  color: white;
+}
+
   </style>
+  
 </head>
 
 <body>
@@ -74,6 +101,22 @@
     <h1>همسفر مشهد</h1>
     <p>همراه شما در سفری خاطره‌انگیز به مشهد مقدس</p>
   </header>
+  <nav class="main-menu">
+  <a href="#home">صفحه اصلی</a>
+  <a href="#passengers">مدیریت مسافران</a>
+  <a href="#buses">مدیریت اتوبوس‌ها</a>
+  <a href="#hotels">مدیریت هتل‌ها</a>
+  <a href="#rooms">رزرو اتاق</a>
+  <a href="#reports">گزارش‌ها</a>
+  </nav>
+  
+<nav class="main-menu">
+  <a href="#login">ثبت‌نام مسافر</a>
+  <a href="#bus">انتخاب اتوبوس</a>
+  <a href="#hotel">رزرو هتل</a>
+  <a href="#contact">تماس با ما</a>
+</nav>
+
 
   <main class="container">
 
